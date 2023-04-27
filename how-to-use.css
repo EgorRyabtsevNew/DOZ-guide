@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* НАВИГАЦИОННОЕ МЕНЮ */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to right, darkslategrey, rgba(100,141,127), rgba(158,224,197));
+	padding: 10px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+nav ul li {
+	margin: 0 20px;
+}
+nav ul li a:hover {
+	color: cyan;
+}
+
+/* Логотип */
+
+.navLogo {
+	margin-right: -190px;
+	margin-left: 5px;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+/* .HERO */
+
+.hero {
+	height: 679px;
+	background-image: url("how1.png");
+	background-size: cover;
+    background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+    background-position: center bottom 100%;
+
+
+}
+.hero h1 {
+	position: absolute;
+	top: 23%;
+	left: 22%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 44px;
+}
+.hero p {
+	position: absolute;
+	top: 56%;
+	left: 22%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 20px;
+}
+.hero h2 {
+	position: absolute;
+	top: 48%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 32px;
+}
+
+
+/* TEST */
+body {
+    text-align: left;
+  }
+  
