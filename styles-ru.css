@@ -14,7 +14,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: linear-gradient(to right, darkslategrey, rgba(100,141,127), rgba(158,224,197));
+	background: linear-gradient(to right, rgba(25,37,35), rgba(53,75,66), rgba(60,85,74));
 	padding: 10px;
 }
 nav ul {

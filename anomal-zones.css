@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -38,7 +39,7 @@ nav ul li a:hover {
 /* Логотип */
 
 .navLogo {
-	margin-right: -299px;
+	margin-right: -190px;
 	margin-left: 5px;
 	margin-top: 6px;
 	margin-bottom: 0px;
@@ -99,7 +100,7 @@ nav ul li a:hover {
     transition: background-color 1s ease-in-out;
     position: absolute;
     top: 65%;
-    left: 27%;
+    left: 23%;
 }
 
 .btn2 {
