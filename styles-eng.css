@@ -37,9 +37,24 @@ nav ul li a:hover {
 
 /* Логотип */
 
+
 .navLogo {
-	margin-right: -299px;
+	margin-right: -460px;
 	margin-left: 5px;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.navApp {
+	margin-right: -155px;
+	margin-left: -320px;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.navPlay {
+	margin-right: -450px;
+	margin-left: -300px;
 	margin-top: 6px;
 	margin-bottom: 0px;
 }
