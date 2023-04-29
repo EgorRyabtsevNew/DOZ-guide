@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* НАВИГАЦИОННОЕ МЕНЮ */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to right, rgb(33,50,61), rgb(20,45,60), rgb(19,87,94));
+	padding: 10px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+nav ul li {
+	margin: 0 20px;
+}
+nav ul li a:hover {
+	color: cyan;
+}
+
+/* Логотип и остальное */
+
+.navLogo {
+	margin-right: -460px;
+	margin-left: 5px;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.navApp {
+	margin-right: -155px;
+	margin-left: -320px;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.navPlay {
+	margin-right: -450px;
+	margin-left: -300px;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.hero {
+	height: 679px;
+	background-image: url("les1.png");
+	background-size: cover;
+    background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+}
+
+

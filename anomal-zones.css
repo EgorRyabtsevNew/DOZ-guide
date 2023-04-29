@@ -110,7 +110,7 @@ nav ul li a:hover {
   }
   
   .heroHozmag img:hover {
-	box-shadow: 0 0 0 150px rgba(137, 26, 26, 0.8) inset, 0 0 40px 15px rgba(151, 22, 22, 0.8);
+	box-shadow: 0 0 0 150px rgba(151, 22, 22, 0.8) inset, 0 0 40px 15px rgba(151, 22, 22, 0.8);
   }
 
   .heroLes img {
@@ -120,7 +120,7 @@ nav ul li a:hover {
   }
   
   .heroLes img:hover {
-	box-shadow: 0 0 0 150px rgba(29, 144, 167, 0.8) inset, 0 0 40px 15px rgba(22, 192, 166, 0.8);
+	box-shadow: 0 0 0 150px rgba(22, 192, 166, 0.8) inset, 0 0 40px 15px rgba(22, 192, 166, 0.8);
   }
 
 
@@ -131,14 +131,14 @@ nav ul li a:hover {
   }
   
   .heroRest img:hover {
-	box-shadow: 0 0 0 150px rgba(208, 182, 9, 0.8) inset, 0 0 40px 15px rgba(216, 182, 15, 0.8);
+	box-shadow: 0 0 0 150px rgba(216, 182, 15, 0.8) inset, 0 0 40px 15px rgba(216, 182, 15, 0.8);
   }
 
 
 .nameHozmah {
   	position: relative;
   	top: 23%;
-  	left: 3.4%;
+  	left: 3.6%;
   	transform: translateX(-50%);
 	font-size: 28px;
 }
