@@ -73,4 +73,88 @@ nav ul li a:hover {
 	position: relative;
 }
 
+.hero h1 {
+	position: absolute;
+	top: 13%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 64px;
+	font-weight: bold;
+}
 
+.text1{
+	position: absolute;
+	top: 28%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 44px;
+	
+}
+
+.text2{
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 22px;
+	text-align: left;
+}
+
+.hero2 {
+	height: 800px;
+	background-image: url("hozmag5.png");
+	background-size: cover;
+    background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+}
+
+
+.hero2 h1{
+	position: absolute;
+	top: 13%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+
+.text3{
+	position: absolute;
+	top: 57%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+	font-size: 19px;
+	text-align: left;
+}
+
+
+.hero3 {
+	height: 800px;
+	background-image: url("hozmag2.png");
+	background-size: cover;
+    background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+}

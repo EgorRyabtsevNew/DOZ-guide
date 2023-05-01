@@ -79,7 +79,7 @@ nav ul li a:hover {
 }
 .hero h1 {
 	position: absolute;
-	top: 15%;
+	top: 13%;
 	left: 22%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
@@ -94,6 +94,7 @@ nav ul li a:hover {
 	z-index: 1;
 	color: white;
 	font-size: 20px;
+	text-align: left;
 }
 .hero h2 {
 	position: absolute;

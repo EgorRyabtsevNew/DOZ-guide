@@ -11,7 +11,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: linear-gradient(to right, rgb(49, 18, 18), rgb(20,10,11), rgb(43,11,9));
+	background: linear-gradient(to right, rgb(40,12,6), rgb(37,14,12), rgb(20,14,21));
 	padding: 10px;
 }
 nav ul {
@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 .hero {
 	height: 679px;
-	background-image: url("rest1.png");
+	background-image: url("bosses.png");
 	background-size: cover;
     background-position: center;
 	display: flex;
