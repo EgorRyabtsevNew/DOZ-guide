@@ -1,81 +1,84 @@
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
-}
-
-/* НАВИГАЦИОННОЕ МЕНЮ */
-
-nav {
+  }
+  
+  /* НАВИГАЦИОННОЕ МЕНЮ */
+  
+  nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: linear-gradient(to right, rgba(45,43,54), rgba(47,61,70), rgba(19,33,42));
+	background: linear-gradient(
+	  to right,
+	  rgba(45, 43, 54),
+	  rgba(47, 61, 70),
+	  rgba(19, 33, 42)
+	);
 	padding: 10px;
-}
-nav ul {
+  }
+  nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
-}
-nav ul li a {
+  }
+  nav ul li a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 24px;
 	font-weight: bold;
 	transition: all 0.3s ease-in-out;
-}
-nav ul li {
+  }
+  nav ul li {
 	margin: 0 20px;
-}
-nav ul li a:hover {
+  }
+  nav ul li a:hover {
 	color: cyan;
-}
-
-/* Логотип */
-
-
-.navLogo {
+  }
+  
+  /* Логотип */
+  
+  .navLogo {
 	margin-right: -460px;
 	margin-left: 5px;
 	margin-top: 6px;
 	margin-bottom: 0px;
-}
-
-.navApp {
+  }
+  
+  .navApp {
 	margin-right: -155px;
 	margin-left: -320px;
 	margin-top: 6px;
 	margin-bottom: 0px;
-}
-
-.navPlay {
+  }
+  
+  .navPlay {
 	margin-right: -450px;
 	margin-left: -300px;
 	margin-top: 6px;
 	margin-bottom: 0px;
-}
-
-/* .HERO */
-
-.hero {
+  }
+  
+  /* .HERO */
+  
+  .hero {
 	height: 679px;
 	background-image: url("anomal-zones1.jpg");
 	background-size: cover;
-    background-position: center;
+	background-position: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	color: #fff;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	position: relative;
-}
-.hero h1 {
+  }
+  .hero h1 {
 	position: absolute;
 	top: 17%;
 	left: 50%;
@@ -83,26 +86,26 @@ nav ul li a:hover {
 	z-index: 1;
 	color: white;
 	font-size: 64px;
-}
-
-.heroHozmag {
+  }
+  
+  .heroHozmag {
 	position: relative;
 	top: 1%;
 	left: 12%;
   }
-
-.heroLes {
+  
+  .heroLes {
 	position: relative;
 	top: 0%;
 	left: 8%;
   }
-
-.heroRest {
+  
+  .heroRest {
 	position: relative;
 	top: 1%;
 	left: 8%;
   }
-
+  
   .heroHozmag img {
 	display: block;
 	border-radius: 50%;
@@ -110,9 +113,10 @@ nav ul li a:hover {
   }
   
   .heroHozmag img:hover {
-	box-shadow: 0 0 0 150px rgba(151, 22, 22, 0.8) inset, 0 0 40px 15px rgba(151, 22, 22, 0.8);
+	box-shadow: 0 0 0 150px rgba(151, 22, 22, 0.8) inset,
+	  0 0 40px 15px rgba(151, 22, 22, 0.8);
   }
-
+  
   .heroLes img {
 	display: block;
 	border-radius: 50%;
@@ -120,10 +124,10 @@ nav ul li a:hover {
   }
   
   .heroLes img:hover {
-	box-shadow: 0 0 0 150px rgba(22, 192, 166, 0.8) inset, 0 0 40px 15px rgba(22, 192, 166, 0.8);
+	box-shadow: 0 0 0 150px rgba(22, 192, 166, 0.8) inset,
+	  0 0 40px 15px rgba(22, 192, 166, 0.8);
   }
-
-
+  
   .heroRest img {
 	display: block;
 	border-radius: 50%;
@@ -131,32 +135,32 @@ nav ul li a:hover {
   }
   
   .heroRest img:hover {
-	box-shadow: 0 0 0 150px rgba(216, 182, 15, 0.8) inset, 0 0 40px 15px rgba(216, 182, 15, 0.8);
+	box-shadow: 0 0 0 150px rgba(216, 182, 15, 0.8) inset,
+	  0 0 40px 15px rgba(216, 182, 15, 0.8);
   }
-
-
-.nameHozmah {
-  	position: relative;
-  	top: 23%;
-  	left: 3.6%;
-  	transform: translateX(-50%);
+  
+  .nameHozmah {
+	position: relative;
+	top: 23%;
+	left: 3.6%;
+	transform: translateX(-50%);
 	font-size: 28px;
-}
-
-.nameLes {
+  }
+  
+  .nameLes {
 	position: relative;
 	top: 23%;
 	left: 0%;
 	transform: translateX(-50%);
 	font-size: 28px;
-}
-
-.nameRest {
+  }
+  
+  .nameRest {
 	position: relative;
 	top: 23%;
 	left: 0%;
 	transform: translateX(-50%);
 	font-size: 28px;
-}
-/* TEST */
-
+  }
+  /* TEST */
+  

@@ -1,160 +1,157 @@
+/* Made with help from ptichkin */
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
-}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+      to right,
+      rgba(43, 1, 2),
+      rgba(13, 9, 12),
+      rgba(25, 0, 0)
+    );
+    padding: 10px;
+    position: relative;
+    z-index: 1000;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  nav ul li {
+    margin: 0 20px;
+  }
+  nav ul li a:hover {
+    color: cyan;
+  }
+  .navLogo {
+    margin-right: -455px;
+    margin-left: 5px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+  
+  .navApp {
+    margin-right: -155px;
+    margin-left: -320px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+  
+  .navPlay {
+    margin-right: -450px;
+    margin-left: -300px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+  
+  img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+  
+    width: 100%;
+    height: auto;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    img.bg {
+      left: 50%;
+      margin-left: -512px;
+    }
+  }
+  
+  #page-wrap {
+    position: relative;
+    width: 900px;
+    margin: 20px auto;
+    background: transparent;
+    left: -16%;
+  }
 
-/* НАВИГАЦИОННОЕ МЕНЮ */
+  h2 {
+    color: white;
+    font: 15px/1 Georgia, Serif;
+    margin: 0 0 10px 0;
+    text-indent: 280px;
+    font-size: 86px;
+  }
+  h3 {
+    color: white;
+    margin: 0 0 30px 0;
+    font: 15px/2 Georgia, Serif;
+    text-indent: 230px;
+    font-size: 48px;
+  }
 
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background: linear-gradient(to right, rgb(30,0,1), rgb(19,12,14), rgb(24,0,0));
-	padding: 10px;
-}
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
-}
-nav ul li a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 24px;
-	font-weight: bold;
-	transition: all 0.3s ease-in-out;
-}
-nav ul li {
-	margin: 0 20px;
-}
-nav ul li a:hover {
-	color: cyan;
-}
+  il {
+    color: white;
+    font: 15px/2 Georgia, Serif;
+    text-indent: 40px;
+    font-size: 18px;
+  }
 
-/* Логотип и остальное */
+  .soveti {
+    color: white;
+    margin: 0 0 55px 0;
+    font: 15px/1 Georgia, Serif;
+    text-indent: 185px;
+    font-size: 48px;
+    margin-top: 40px;
+  }
 
-.navLogo {
-	margin-right: -460px;
-	margin-left: 5px;
-	margin-top: 6px;
-	margin-bottom: 0px;
-}
+  .polza {
+    color: white;
+    margin: 0 0 45px 0;
+    font: 15px/1 Georgia, Serif;
+    text-indent: 235px;
+    font-size: 48px;
+    margin-top: 0px;
+  }
 
-.navApp {
-	margin-right: -155px;
-	margin-left: -320px;
-	margin-top: 6px;
-	margin-bottom: 0px;
-}
+  h4 {
+    color: white;
+    margin: 0 0 35px 0;
+    font: 15px/1 Georgia, Serif;
+    text-indent: 278px;
+    font-size: 32px;
+  }
 
-.navPlay {
-	margin-right: -450px;
-	margin-left: -300px;
-	margin-top: 6px;
-	margin-bottom: 0px;
-}
+  .zachem {
+    color: white;
+    margin: 0 0 40px 0;
+    font: 15px/1 Georgia, Serif;
+    text-indent: 278px;
+    font-size: 32px;
+    margin-top: 25px;
+  }
 
-.hero {
-	height: 679px;
-	background-image: url("hozmag1.png");
-	background-size: cover;
-    background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color: #fff;
-	font-family: 'Source Sans Pro', sans-serif;
-	position: relative;
-}
+  .info {
+    color: white;
+    margin: 0 0 40px 0;
+    font: 15px/1 Georgia, Serif;
+    text-indent: 235px;
+    font-size: 32px;
+    margin-top: 25px;
+  }
 
-.hero h1 {
-	position: absolute;
-	top: 13%;
-	left: 30%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
-	color: white;
-	font-size: 64px;
-	font-weight: bold;
-}
-
-.text1{
-	position: absolute;
-	top: 28%;
-	left: 30%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
-	color: white;
-	font-size: 44px;
-	
-}
-
-.text2{
-	position: absolute;
-	top: 60%;
-	left: 35%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
-	color: white;
-	font-size: 22px;
-	text-align: left;
-}
-
-.hero2 {
-	height: 800px;
-	background-image: url("hozmag5.png");
-	background-size: cover;
-    background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color: #fff;
-	font-family: 'Source Sans Pro', sans-serif;
-	position: relative;
-}
-
-
-.hero2 h1{
-	position: absolute;
-	top: 13%;
-	left: 30%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
-	color: white;
-	font-size: 60px;
-	font-weight: bold;
-}
-
-
-.text3{
-	position: absolute;
-	top: 57%;
-	left: 35%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
-	color: white;
-	font-size: 19px;
-	text-align: left;
-}
-
-
-.hero3 {
-	height: 800px;
-	background-image: url("hozmag2.png");
-	background-size: cover;
-    background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color: #fff;
-	font-family: 'Source Sans Pro', sans-serif;
-	position: relative;
-}
