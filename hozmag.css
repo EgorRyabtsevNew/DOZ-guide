@@ -141,17 +141,35 @@
     color: white;
     margin: 0 0 40px 0;
     font: 15px/1 Georgia, Serif;
-    text-indent: 278px;
+    text-indent: 280px;
     font-size: 32px;
     margin-top: 25px;
   }
 
   .info {
     color: white;
-    margin: 0 0 40px 0;
+    margin: 0 0 4 0px 0;
     font: 15px/1 Georgia, Serif;
     text-indent: 235px;
     font-size: 32px;
     margin-top: 25px;
   }
 
+
+  .kazematy {
+    color: white;
+    font: 15px/1 Georgia, Serif;
+    margin: 0 0 10px 0;
+    text-indent: 210px;
+    font-size: 86px;
+    margin-top: 55px;
+  }
+
+  .chtobrat2 {
+    color: white;
+    margin: 0 0 55px 0;
+    font: 15px/1 Georgia, Serif;
+    text-indent: 200px;
+    font-size: 48px;
+    margin-top: 40px;
+  }
