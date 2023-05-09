@@ -8,9 +8,10 @@
     align-items: center;
 	background: linear-gradient(
 		to right,
-		rgba(25, 37, 35),
-		rgba(53, 75, 66),
-		rgba(60, 85, 74)
+	  rgba(31, 40, 43),
+	  rgba(30, 43, 50),
+	  rgba(54, 73, 80),
+	  rgba(42, 55, 61)
 	  );
     padding: 10px;
     position: relative;
@@ -34,7 +35,7 @@
     margin: 0 20px;
   }
   nav ul li a:hover {
-    color: rgb(39, 128, 113);
+    color: rgb(50, 124, 158);
   }
   
   .navLogo {
@@ -76,16 +77,31 @@
   
   #page-wrap {
     position: relative;
-    width: 900px;
-    margin: 20px auto;
+    width: 650px;
+    margin: 10px auto;
     background: transparent;
-    left: -16%;
+    left: -23%;
   }
 
 
-  
-  /* TEST */
-  body {
-	text-align: left;
+  h1 {
+    color: white;
+    margin: 0 0 10px 0;
+    text-indent: 60px;
+    font-size: 64px;
+    line-height: 1.4;
+    text-indent: 30px;
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
   }
   
+  p {
+    color: white;
+    margin: 0 0 30px 0;
+    text-indent: 230px;
+    font-size: 23px;
+    line-height: 1.4;
+    text-indent: 0px;
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+  }
