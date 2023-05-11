@@ -84,7 +84,7 @@
 	font-size: 80px;
 	font-family: "Inter", sans-serif;
   }
-
+  
   .heroHozmag {
 	position: absolute;
 	top: 40%;
@@ -136,8 +136,6 @@
 	  0 0 40px 15px rgba(216, 182, 15, 0.8);
   }
   
-
-
   .nameHozmah {
 	position: absolute;
 	top: 73%;
@@ -166,5 +164,6 @@
 	font-size: 32px;
 	color: white;
 	line-height: 1.4;
-	font-family: "Inter", sans-serif; 
+	font-family: "Inter", sans-serif;
   }
+  
