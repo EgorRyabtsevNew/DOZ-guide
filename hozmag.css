@@ -94,22 +94,22 @@ img.bg {
 
 h2 {
   color: white;
-  font: 15px/1 Georgia, Serif;
+  font: 15px/1 "Inter", sans-serif;
   margin: 0 0 10px 0;
-  text-indent: 280px;
+  text-indent: 305px;
   font-size: 86px;
 }
 h3 {
   color: white;
   margin: 0 0 30px 0;
-  font: 15px/2 Georgia, Serif;
+  font: 15px/2 "Inter", sans-serif;
   text-indent: 230px;
   font-size: 48px;
 }
 
 li {
   color: white;
-  font: 15px/2 Georgia, Serif;
+  font: 15px/2 "Inter", sans-serif;
   text-indent: 0px;
   font-size: 20px;
   margin: 30px;
@@ -118,8 +118,8 @@ li {
 .soveti {
   color: white;
   margin: 0 0 55px 0;
-  font: 15px/1 Georgia, Serif;
-  text-indent: 185px;
+  font: 15px/1 "Inter", sans-serif;
+  text-indent: 175px;
   font-size: 48px;
   margin-top: 40px;
 }
@@ -127,7 +127,7 @@ li {
 .polza {
   color: white;
   margin: 0 0 45px 0;
-  font: 15px/1 Georgia, Serif;
+  font: 15px/1 "Inter", sans-serif;
   text-indent: 235px;
   font-size: 48px;
   margin-top: 0px;
@@ -136,7 +136,7 @@ li {
 h4 {
   color: white;
   margin: 0 0 35px 0;
-  font: 15px/1 Georgia, Serif;
+  font: 15px/1 "Inter", sans-serif;
   text-indent: 278px;
   font-size: 32px;
 }
@@ -144,7 +144,7 @@ h4 {
 .zachem {
   color: white;
   margin: 0 0 40px 0;
-  font: 15px/1 Georgia, Serif;
+  font: 15px/1 "Inter", sans-serif;
   text-indent: 280px;
   font-size: 32px;
   margin-top: 25px;
@@ -153,7 +153,7 @@ h4 {
 .info {
   color: white;
   margin: 0 0 4 0px 0;
-  font: 15px/1 Georgia, Serif;
+  font: 15px/1 "Inter", sans-serif;
   text-indent: 235px;
   font-size: 32px;
   margin-top: 25px;
@@ -161,7 +161,7 @@ h4 {
 
 .kazematy {
   color: white;
-  font: 15px/1 Georgia, Serif;
+  font: 15px/1 "Inter", sans-serif;
   margin: 0 0 10px 0;
   text-indent: 210px;
   font-size: 86px;
@@ -171,8 +171,8 @@ h4 {
 .chtobrat2 {
   color: white;
   margin: 0 0 55px 0;
-  font: 15px/1 Georgia, Serif;
-  text-indent: 200px;
+  font: 15px/1 "Inter", sans-serif;
+  text-indent: 190px;
   font-size: 48px;
   margin-top: 40px;
 }
