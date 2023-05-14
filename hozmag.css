@@ -36,13 +36,13 @@ nav ul li a {
   font-size: 26px;
   line-height: 1.4;
   font-weight: bold;
-  transition: all 0.8s ease-in-out;
 }
 nav ul li {
   margin: 0 20px;
 }
 nav ul li a:hover {
   color: rgb(94, 14, 15);
+  transition: all 0.8s ease-in-out;
 }
 .navLogo {
   margin-right: -455px;
@@ -69,12 +69,11 @@ img.bg {
   min-height: 100%;
   min-width: 1024px;
 
-  width: 100%;
   height: auto;
 
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -86,93 +85,39 @@ img.bg {
 
 #page-wrap {
   position: relative;
-  width: 900px;
+  width: 850px;
   margin: 20px auto;
   background: transparent;
-  left: -16%;
+  left: -18%;
 }
 
 h2 {
   color: white;
-  font: 15px/1 "Inter", sans-serif;
-  margin: 0 0 10px 0;
-  text-indent: 305px;
-  font-size: 86px;
+  font: 104px/1 "Inter", sans-serif;
+  text-align: center;
+  margin-top: 60px;
 }
+
 h3 {
   color: white;
-  margin: 0 0 30px 0;
-  font: 15px/2 "Inter", sans-serif;
-  text-indent: 230px;
-  font-size: 48px;
-}
-
-li {
-  color: white;
-  font: 15px/2 "Inter", sans-serif;
-  text-indent: 0px;
-  font-size: 20px;
-  margin: 30px;
-}
-
-.soveti {
-  color: white;
-  margin: 0 0 55px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 175px;
-  font-size: 48px;
-  margin-top: 40px;
-}
-
-.polza {
-  color: white;
-  margin: 0 0 45px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 235px;
-  font-size: 48px;
-  margin-top: 0px;
+  font: 56px/1 "Inter", sans-serif;
+  text-align: center;
+  margin-top: 70px;
 }
 
 h4 {
   color: white;
-  margin: 0 0 35px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 278px;
-  font-size: 32px;
-}
-
-.zachem {
-  color: white;
-  margin: 0 0 40px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 280px;
-  font-size: 32px;
-  margin-top: 25px;
-}
-
-.info {
-  color: white;
-  margin: 0 0 4 0px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 235px;
-  font-size: 32px;
-  margin-top: 25px;
-}
-
-.kazematy {
-  color: white;
-  font: 15px/1 "Inter", sans-serif;
-  margin: 0 0 10px 0;
-  text-indent: 210px;
-  font-size: 86px;
-  margin-top: 55px;
-}
-
-.chtobrat2 {
-  color: white;
-  margin: 0 0 55px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 190px;
-  font-size: 48px;
+  font: 42px/1 "Inter", sans-serif;
+  text-align: center;
   margin-top: 40px;
 }
+
+li {
+  color: white;
+  font: 23px/1.8 "Inter", sans-serif;
+  text-indent: 0px;
+  font-size: 23px;
+  margin-top: 40px;
+}
+
+
