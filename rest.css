@@ -65,7 +65,7 @@ nav ul li a:hover {
 
 img.bg {
   min-height: 100%;
-  min-width: 1024px;
+  min-width:100%;
 
   height: auto;
 
@@ -83,75 +83,36 @@ img.bg {
 
 #page-wrap {
   position: relative;
-  width: 900px;
+  width: 850px;
   margin: 20px auto;
   background: transparent;
-  left: -16%;
+  left: -18%;
 }
 
 h2 {
   color: white;
-  font: 15px/1 "Inter", sans-serif;
-  margin: 0 0 20px 0;
-  text-indent: 40px;
-  font-size: 82px;
+  font: 80px/1 "Inter", sans-serif;
+  text-align: center;
+  margin-top: 60px;
 }
+
 h3 {
   color: white;
-  margin: 0 0 30px 0;
-  font: 15px/2 "Inter", sans-serif;
-  text-indent: 230px;
-  font-size: 48px;
-}
-
-li {
-  color: white;
-  font: 15px/2 "Inter", sans-serif;
-  text-indent: 0px;
-  font-size: 20px;
-  margin: 30px;
-}
-
-.soveti {
-  color: white;
-  margin: 0 0 55px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 165px;
-  font-size: 48px;
-  margin-top: 40px;
-}
-
-.polza {
-  color: white;
-  margin: 0 0 45px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 235px;
-  font-size: 48px;
-  margin-top: 0px;
+  font: 56px/1 "Inter", sans-serif;
+  text-align: center;
+  margin-top: 70px;
 }
 
 h4 {
   color: white;
-  margin: 0 0 35px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 278px;
-  font-size: 32px;
+  font: 42px/1 "Inter", sans-serif;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.zachem {
+li {
   color: white;
-  margin: 0 0 40px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 280px;
-  font-size: 32px;
-  margin-top: -15px;
-}
-
-.info {
-  color: white;
-  margin: 0 0 4 0px 0;
-  font: 15px/1 "Inter", sans-serif;
-  text-indent: 235px;
-  font-size: 32px;
-  margin-top: 25px;
+  font: 23px/1.8 "Inter", sans-serif;
+  text-indent: 0px;
+  margin-top: 40px;
 }
