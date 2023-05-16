@@ -52,7 +52,7 @@ nav ul li a:hover {
 }
 
 .navApp {
-  margin-right: -155px;
+  margin-right: -100px;
   margin-left: -320px;
   margin-top: 6px;
   margin-bottom: 0px;
@@ -114,42 +114,177 @@ li {
   color: white;
   font: 23px/1.8 "Inter", sans-serif;
   text-indent: 0px;
-  margin-top: 40px;
+  margin-top: 37px;
 }
+
 
 
 
 
 @media only screen and (max-width: 600px) {
+  .navApp {
+    display: none;
+  }
+  .navPlay {
+    display: none;
+  }
+  nav ul li a {
+    display: none;
+  }
+  #page-wrap {
+    width: 340px;
+    left: 0%;
+  }
+  h2 {
+    font: 64px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font: 34px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h4 {
+    font: 26px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
   li {
-    font-size: 4px;
-  } 
+    font: 18px/1.7 "Inter", sans-serif;
+    margin-top: 30px;
+  }
 }
+
+
+
+
+
 
 
 @media only screen and (min-width: 600px) {
+  .navApp {
+    display: none;
+  }
+  .navPlay {
+    display: none;
+  }
+  nav ul li a {
+    display: none;
+  }
+  #page-wrap {
+    width: 520px;
+    left: 0%;
+  }
+  h2 {
+    font: 86px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font: 42px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h4 {
+    font: 26px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
   li {
-    font-size: 8px;
+    font: 19px/1.7 "Inter", sans-serif;
+    margin-top: 30px;
   }
 }
+
+
+
+
+
 
 
 @media only screen and (min-width: 768px) {
+  .navApp {
+    display: none;
+  }
+  .navPlay {
+    display: none;
+  }
+  nav ul li a {
+    display: none;
+  }
+  #page-wrap {
+    width: 650px;
+    left: 0%;
+  }
+  h2 {
+    font: 106px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font: 64px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h4 {
+    font: 42px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
   li {
-    font-size: 16px;
+    font: 24px/1.7 "Inter", sans-serif;
+    margin-top: 30px;
   }
 }
 
 
-@media only screen and (min-width: 992px) {
-  li {
-    font-size: 26px;
-}
-}
+
 
 
 @media only screen and (min-width: 1200px) {
+  .navApp {
+    display: flex;
+  }
+  .navPlay {
+    display: flex;
+  }
+  nav ul li a {
+    display: flex;
+  }
+  #page-wrap {
+    width: 850px;
+    left: -19%;
+  }
+  h2 {
+    font: 106px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font: 64px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h4 {
+    font: 42px/1 "Inter", sans-serif;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
   li {
-    font-size: 32px;
-}
+    font: 24px/1.7 "Inter", sans-serif;
+    margin-top: 30px;
+  }
 }
